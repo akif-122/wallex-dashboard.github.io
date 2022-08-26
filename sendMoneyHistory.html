@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dashboard</title>
+
+	<!-- FONT AWESOME ICON LINK  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+	<!-- BOOTSTRAP CSS LINK-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css"/>
+
+	<!-- CUSTOM CSS FILE LINK -->
+	<link rel="stylesheet" type="text/css" href="assets/css/dashboard.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/dashboard-responsive.css">
+
+
+
+</head>
+<body>
+
+	<div class="wrapper">
+		<main class="main">
+
+			<aside class="sidebar d-none d-lg-block">
+				<div class="logo">
+					<img src="assets/img/logo.svg"  alt="">
+				</div>
+
+				<nav class="side-menu">
+					<ul>
+						<li><a href="index.html" > <img src="assets/img/icon/icon1.png" alt=""> Dashboard</a></li>
+					</ul>
+
+					<p>Send Money</p>
+
+					<ul>
+						<li><a href="sendMoney.html"> <img src="assets/img/icon/icon2.png" alt=""> Send Money</a></li>
+						<li><a href="bulkpayment.html" ><img src="assets/img/icon/icon2.png" alt=""> Bulk Payment</a></li>
+						<li><a href="benefi.html"><img src="assets/img/icon/icon3.png" alt=""> Beneficiaries</a></li>
+						<li><a href="sendMoneyHistory.html" class="active"><img src="assets/img/icon/icon4.png" alt=""> Send Money History</a></li>
+						
+					</ul>
+
+					<p>Collections</p>
+
+					<ul>
+						<li><a href="collection.html">Collections</a></li>
+					</ul>
+
+					<p>Reports</p>
+
+					<ul>
+						<li><a href="report.html" >Reports</a></li>
+					</ul>
+
+					<p>Promotion</p>
+
+					<ul>
+						<li><a href="refferal.html" ><img src="assets/img/icon/icon3.png" alt=""> Referrals</a></li>
+					</ul>
+
+
+
+
+
+				</nav>
+			</aside>
+			<div class="content-area">
+
+				<!-- LOGO BAR -->
+				<div class="logo-bar  d-flex justify-content-between align-items-center d-lg-none">
+					<div class="top-logo">
+						<img src="assets/img/logo.svg" width="130px" alt="">
+					</div>
+					<span class="m-menu-opener"><i class="fa fa-bars"></i></span>
+				</div>
+				<!-- LOGO BAR END -->
+
+				<!-- MOBILE MENU -->
+				<div class="mobile-menu">
+					<nav class="side-menu">
+					<ul>
+						<li><a href="index.html" > <img src="assets/img/icon/icon1.png" alt=""> Dashboard</a></li>
+					</ul>
+
+					<p>Send Money</p>
+
+					<ul>
+						<li><a href="sendMoney.html"> <img src="assets/img/icon/icon2.png" alt=""> Send Money</a></li>
+						<li><a href="bulkpayment.html" ><img src="assets/img/icon/icon2.png" alt=""> Bulk Payment</a></li>
+						<li><a href="benefi.html"><img src="assets/img/icon/icon3.png" alt=""> Beneficiaries</a></li>
+						<li><a href="sendMoneyHistory.html" class="active"><img src="assets/img/icon/icon4.png" alt=""> Send Money History</a></li>
+						
+					</ul>
+
+					<p>Collections</p>
+
+					<ul>
+						<li><a href="collection.html">Collections</a></li>
+					</ul>
+
+					<p>Reports</p>
+
+					<ul>
+						<li><a href="report.html" >Reports</a></li>
+					</ul>
+
+					<p>Promotion</p>
+
+					<ul>
+						<li><a href="refferal.html" ><img src="assets/img/icon/icon3.png" alt=""> Referrals</a></li>
+					</ul>
+
+
+
+
+
+
+				</nav>
+				</div>
+				<!-- MOBILE MENU END -->
+
+				<!-- TOP BAR  -->
+				<div class="top-bar">
+					<nav>
+						<ul class="menu-left">
+							<li><a href="">Home</a></li>
+							<li class="p-active">Send Money History</li>
+						</ul>
+
+						<div class="menu-right">
+							<ul>
+								<li><a href="" class="pending">Pending Documents</a></li>
+								<li class="dropdown">
+									<a href="#" data-toggle="dropdown">EN <i class="fa fa-angle-down"></i></a>
+									<div class="dropdown-menu lan-drop">
+										<a href="">English (EN)</a>
+										<a href="">Bahasa Indonesia (ID)</a>
+										<a href="">简体中文 (CN Simplified)</a>
+										<a href="">繁體中文 (CN Traditional)</a>
+									</div>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="" data-toggle="dropdown">Karim Azam <i class="fa fa-angle-down"></i></a>
+									<div class="dropdown-menu user-drop">
+									  <a class="dropdown-item" href="#"><i class="fa fa-user"></i> Settings</a>
+									  <a class="dropdown-item" href="#"><i class="fa fa-question"></i> FAQ</a>
+									  <a class="dropdown-item" href="#"><i class="fa fa-life-ring"></i> Support</a>
+									  <div class="dropdown-divider"></div>
+									  <a class="dropdown-item" href="#"><i class="fa fa-key"></i> Logout</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<!-- TOP BAR END -->
+
+				<!-- DASHBOARD MAIN -->
+				<section class="dashboard-main">
+					<h4 class="page-heading">Send Money History</h4>
+
+					
+
+
+					
+
+					<div class="m-trans-container collect-trans">
+						<div class="card">
+							<div class="card-header">
+								<h3><i class="fa fa-history"></i> SEND MONEY HISTORY</h3>
+							</div>
+							<div class="card-body">
+
+								<div class="cal-search">
+									<div class="calender-btn">
+										<a href=""><i class="fa fa-calendar"></i></a>
+									</div>
+									<div class="t-search my-2">
+										<form action="">
+											<div class="input-container">
+												<input class="input" type="search" name="">
+												<input class="input-btn" type="button" value="Search" name="">
+											</div>
+										</form>
+									</div>
+								</div>
+
+								<div class="table-responsive">
+									<table class="table table-bordered " style="border: 1px solid rgba(0,0,0,0.14)">
+										<thead>
+											<tr>
+												<th class="th-btn active">
+													<div class="t-head">
+													<h6>Status</h6> <i class="fa fa-sort ml-auto"></i>
+													</div>
+												</th>
+												<th class="th-btn">
+													<div class="t-head">
+														<h6>Creation Date</h6>  <i class="fa fa-sort ml-auto"></i>
+													</div>
+												</th>
+												<th class="th-btn">
+													<div class="t-head">
+														<h6>Created By</h6> 
+														<i class="fa fa-sort ml-auto"></i>
+													</div>
+												</th>
+												<th class="th-btn">
+													<div class="t-head">
+														<h6>Reference</h6> <i class="fa fa-sort ml-auto"></i>
+													</div>
+												</th>
+												<th class="th-btn">
+													<div class="t-head">
+														<h6>Beneficiary</h6> <i class="fa fa-sort ml-auto"></i>
+													</div>
+												</th>
+
+												<th class="th-btn">
+													<div class="t-head">
+														<h6>Currency</h6> <i class="fa fa-sort ml-auto"></i>
+													</div>
+												</th>
+
+												<th class="th-btn">
+													<div class="t-head">
+														<h6>Amount</h6> <i class="fa fa-sort ml-auto"></i>
+													</div>
+												</th>
+
+												<th class="th-btn">
+													<div class="t-head">
+														<h6>Charge type</h6> <i class="fa fa-sort ml-auto"></i>
+													</div>
+												</th>
+
+												<th>
+													<div class="t-head">
+														<h6>Actions</h6> 
+													</div>
+												</th>
+
+												
+											</tr>
+										</thead>
+
+										<tbody>
+
+											<tr>
+												<td colspan="8"><p class="no-history m-0">No send money history found.</p></td>
+											</tr>
+											<!-- <tr>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+											</tr> -->
+										</tbody>
+
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+				</section>
+				<!-- DASHBOARD MAIN END -->
+
+				
+			</div>
+		</main>
+	</div>
+	
+
+
+
+
+
+	<!-- JQUERY CDN FILE LINK -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+
+	<!-- BOOTSTRAP JS FILE LINK -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.bundle.min.js"></script>
+
+	<!-- CUSTOM JS  -->
+	<script type="text/javascript" src="assets/js/dash.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+
+.content-area{
+	background: #EFF2F5;
+}
+.dashboard-main .bulk-table{
+	background: #fff;
+	padding: 20px;
+}
+.dashboard-main .bulk-table .t-container{
+	background: #FAFAFA;
+	padding-bottom: 15px;
+	border-radius: 5px;
+}
+
+.dashboard-main .bulk-table table thead{
+	background: #FAFAFA;
+}
+.dashboard-main .bulk-table table thead tr th{
+	padding: 8px;
+}
+.dashboard-main .bulk-table table thead tr th:last-child .b-t-head{
+	border-right: none;
+}
+.dashboard-main .bulk-table table thead tr th .b-t-head{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-right: 1px solid #9999;
+	padding: 5px;
+	padding-right: 8px;
+
+}
+.dashboard-main .bulk-table table thead tr th{
+	border-top: none;
+}
+.dashboard-main .bulk-table table thead tr th .b-t-head h5{
+	font-size: 14px;
+	font-weight: 500;
+	color: #444;
+	margin: 0;
+
+}
+.dashboard-main .bulk-table table thead tr th .b-t-head i{
+	height: 100%;
+	padding: 5px;
+	border-radius: 4px;
+	font-size: 13px;
+	color: #8888;
+}
+.dashboard-main .bulk-table table thead tr th .b-t-head i:hover{
+	background: #EFF2F5;
+}
+.dashboard-main .bulk-table table tbody{
+	background: #fff;
+}
+.dashboard-main .bulk-table table tbody tr{
+	border-bottom: 1px solid rgba(0,0,0,0.18);
+
+}
+.dashboard-main .bulk-table table tbody tr td{
+	font-size: 13px;
+	color: #666;
+	padding: 10px;
+}
+
+.dashboard-main .bulk-table table tbody p.noData{
+	text-align: center;
+	font-size: 13px;
+	color: #9999;
+	margin-top: 10px;
+}

@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dashboard</title>
+
+	<!-- FONT AWESOME ICON LINK  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+	<!-- BOOTSTRAP CSS LINK-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css"/>
+
+	<!-- CUSTOM CSS FILE LINK -->
+	<link rel="stylesheet" type="text/css" href="assets/css/dashboard.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/dashboard-responsive.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/sendMoney.css">
+
+
+
+</head>
+<body>
+
+	<div class="wrapper">
+		<main class="main">
+
+			<aside class="sidebar d-none d-lg-block">
+				<div class="logo">
+					<img src="assets/img/logo.svg"  alt="">
+				</div>
+
+				<nav class="side-menu">
+					<ul>
+						<li><a href="index.html" > <img src="assets/img/icon/icon1.png" alt=""> Dashboard</a></li>
+					</ul>
+
+					<p>Send Money</p>
+
+					<ul>
+						<li><a href="sendMoney.html" class="active"> <img src="assets/img/icon/icon2.png" alt=""> Send Money</a></li>
+						<li><a href="bulkpayment.html" ><img src="assets/img/icon/icon2.png" alt=""> Bulk Payment</a></li>
+						<li><a href="benefi.html"><img src="assets/img/icon/icon3.png" alt=""> Beneficiaries</a></li>
+						<li><a href="sendMoneyHistory.html"><img src="assets/img/icon/icon4.png" alt=""> Send Money History</a></li>
+						
+					</ul>
+
+					<p>Collections</p>
+
+					<ul>
+						<li><a href="collection.html">Collections</a></li>
+					</ul>
+
+					<p>Reports</p>
+
+					<ul>
+						<li><a href="report.html" >Reports</a></li>
+					</ul>
+
+					<p>Promotion</p>
+
+					<ul>
+						<li><a href="refferal.html" ><img src="assets/img/icon/icon3.png" alt=""> Referrals</a></li>
+					</ul>
+
+
+
+
+				</nav>
+			</aside>
+			<div class="content-area">
+
+				<!-- LOGO BAR -->
+				<div class="logo-bar  d-flex justify-content-between align-items-center d-lg-none">
+					<div class="top-logo">
+						<img src="assets/img/logo.svg" width="130px" alt="">
+					</div>
+					<span class="m-menu-opener"><i class="fa fa-bars"></i></span>
+				</div>
+				<!-- LOGO BAR END -->
+
+				<!-- MOBILE MENU -->
+				<div class="mobile-menu">
+					<nav class="side-menu">
+					<ul>
+						<li><a href="index.html" > <img src="assets/img/icon/icon1.png" alt=""> Dashboard</a></li>
+					</ul>
+
+					<p>Send Money</p>
+
+					<ul>
+						<li><a href="sendMoney.html" class="active"> <img src="assets/img/icon/icon2.png" alt=""> Send Money</a></li>
+						<li><a href="bulkpayment.html" ><img src="assets/img/icon/icon2.png" alt=""> Bulk Payment</a></li>
+						<li><a href="benefi.html"><img src="assets/img/icon/icon3.png" alt=""> Beneficiaries</a></li>
+						<li><a href="sendMoneyHistory.html"><img src="assets/img/icon/icon4.png" alt=""> Send Money History</a></li>
+						
+					</ul>
+
+					<p>Collections</p>
+
+					<ul>
+						<li><a href="collection.html">Collections</a></li>
+					</ul>
+
+					<p>Reports</p>
+
+					<ul>
+						<li><a href="report.html" >Reports</a></li>
+					</ul>
+
+					<p>Promotion</p>
+
+					<ul>
+						<li><a href="refferal.html" ><img src="assets/img/icon/icon3.png" alt=""> Referrals</a></li>
+					</ul>
+
+
+
+				</nav>
+				</div>
+				<!-- MOBILE MENU END -->
+
+				<!-- TOP BAR  -->
+				<div class="top-bar">
+					<nav>
+						<ul class="menu-left">
+							<li><a href="">Home</a></li>
+							<li class="p-active"> Send Money</li>
+						</ul>
+
+						<div class="menu-right">
+							<ul>
+								<li><a href="" class="pending">Pending Documents</a></li>
+								<li class="dropdown">
+									<a href="#" data-toggle="dropdown">EN <i class="fa fa-angle-down"></i></a>
+									<div class="dropdown-menu lan-drop">
+										<a href="">English (EN)</a>
+										<a href="">Bahasa Indonesia (ID)</a>
+										<a href="">简体中文 (CN Simplified)</a>
+										<a href="">繁體中文 (CN Traditional)</a>
+									</div>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="" data-toggle="dropdown">Karim Azam <i class="fa fa-angle-down"></i></a>
+									<div class="dropdown-menu user-drop">
+									  <a class="dropdown-item" href="#"><i class="fa fa-user"></i> Settings</a>
+									  <a class="dropdown-item" href="#"><i class="fa fa-question"></i> FAQ</a>
+									  <a class="dropdown-item" href="#"><i class="fa fa-life-ring"></i> Support</a>
+									  <div class="dropdown-divider"></div>
+									  <a class="dropdown-item" href="#"><i class="fa fa-key"></i> Logout</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<!-- TOP BAR END -->
+
+				<!-- DASHBOARD MAIN -->
+				<section class="dashboard-main">
+					<h4 class="page-heading">Send Money</h4>
+
+					<div class="money-inform">
+						<p>If you don't see the currency you'd like to send, please inform us at <a href="">contact@wallextech.com</a>.</p>
+					</div>
+
+					<div class="sendMoney-wrapper">
+						 <div class="row align-items-start p-2">
+
+						 	<div class="col-xl-8">
+
+						 		<div class="paying">
+						 			<h4 class="payHeading"> <span>1</span> How much are you paying?</h4>
+
+						 			<div class="i-paying">
+						 				<form>
+						 					<div class="d-md-flex justify-content-end align-items-center exch">
+						 						<label for="">I am paying</label>
+							 					<select name="" id="">
+							 						<option value="">NOK</option>
+							 						<option value="">SGD</option>
+							 						<option value="">SEF</option>
+							 					</select>
+							 					<input type="text" value="2000.00">
+						 					</div>
+						 					
+						 				</form>
+						 			</div>
+
+						 			<div class="i-paying">
+						 				<form>
+						 					<div class="d-md-flex justify-content-end align-items-center exch">
+						 						<label for="">I want the beneficiary to receive</label>
+							 					<select name="" id="">
+							 						<option value="">NOK</option>
+							 						<option value="">SGD</option>
+							 						<option value="">SEF</option>
+							 					</select>
+							 					<input type="text" value="2000.00">
+						 					</div>
+						 					
+						 				</form>
+						 			</div>
+
+						 		</div>
+
+
+						 		<div class="paying">
+						 			<h4 class="payHeading"> <span>2</span>  Who are you paying to?</h4>
+
+						 			<p class="noFound">No beneficiaries found. <a href="">Add a beneficiary</a></p>
+						 		</div>
+
+						 		<div class="paying">
+						 			<h4 class="payHeading"> <span>3</span>  How would you want your payment and charges to be settled? <strong>new</strong></h4>
+
+						 			<div class="new-pay">
+						 				<h5><i class="fa fa-info-circle"></i> New Payment Channel Selection</h5>
+						 				<p>Please take note of this new Payment Channel Selection. Your selection(s) here will affect the amount your beneficiary recieves, as well as the fee and changes which are reflected in the Payment Summary on the right.</p>
+						 			</div>
+
+						 			<div class="  d-md-flex radio-section">
+
+						 				<div class="text-right" >
+						 					<p>I want to send this payment through <br> <a style="white-space: nowrap;" href=""> <i class="fa fa-info-circle"></i> Difference between Local & Swift</a></p>
+						 				</div>
+						 				
+						 				<form action="">
+						 					<div class="radio">
+							 					<input type="radio" checked disabled id="local">
+							 					<label for="local">Local Channels</label>
+						 					</div>
+
+
+						 					<div class="radio">
+							 					<input type="radio" disabled id="swift">
+							 					<label for="swift">SWIFT Network</label>
+						 					</div>
+						 				</form>
+						 			</div>
+
+						 		</div>
+
+						 		<div class="paying">
+						 			<h4 class="payHeading"> <span>4</span>  Tell us more about this payment</h4>
+
+						 			<div class="payment">
+
+						 				<form>	
+
+						 					<div class="form-input-wrap">
+
+						 						<label for="">Purpose of Transaction <span>*</span></label>
+
+						 						<div class="i-input">
+						 							<select  >
+							 							<option>Cash Management</option>
+							 							<option>Comercial</option>
+							 							<option>Genral</option>
+							 							<option>Tax</option>
+							 						</select>
+
+						 						</div>
+
+						 					</div>
+
+						 					<div class="form-input-wrap ">
+						 						<label for="">Attach Supporting Documents (Optional)</label>
+						 						<div class="i-input">
+							 						<input class="checkbox" type="checkbox">
+							 					</div>
+						 					</div>
+
+						 					<div class="form-input-wrap">
+						 						<label for="">Source of Funds <span>*</span></label>
+						 						<div class="i-input">
+							 						<select  >
+							 							<option>Salary/Wages</option>
+							 							<option>Borrowed Funds/Loan</option>
+							 							<option>Pension/Government/Welfare</option>
+							 						</select>
+							 					</div>
+						 					</div>
+
+						 					<div class="form-input-wrap">
+						 						<label for="">Reference <span>*</span></label>
+						 						<div class="i-input">
+						 							<input  type="text">
+						 							<p>Please input your invoice number or other references to be shown. This will appear in your beneficiary’s bank receipt.</p>
+						 						</div>
+						 					</div>
+						 					
+
+						 					<div class="form-input-wrap">
+						 						<label for="">Other Reference (Optional)</label>
+						 						<div class="i-input">
+							 						<input   type="text">
+								 					<p>This reference will shown in your statement for reconciliation.</p>
+							 					</div>
+						 					</div>
+
+						 					<div class="form-input-wrap">
+						 						<label for="">Additional Notes (Optional)</label>
+						 						<div class="i-input">
+							 						<textarea    placeholder="Message Here"></textarea>
+								 					<p>Notes for this transfer. This is for your own internal use only and will not be sent to your beneficiary.</p>
+							 					</div>
+						 					</div>
+						 					
+						 				</form>
+
+						 			</div>
+						 			
+						 		</div>
+
+
+						 	</div>
+
+						 	<div class="col-xl-4 mt-4 mt-xl-0 payment-summary">
+						 		<div class="card ">
+						 			<div class="card-header">
+						 				<div class="ribon"></div>
+						 				<h4><i class=""></i> PAYMENT SUMMARY</h4>
+						 			</div>
+						 			<div class="card-body">
+						 				<div class="select-benefi">
+						 					<p>Please select a beneficiary for this payment.</p>
+						 				</div>
+
+						 				<div class="list-container">
+
+						 					<div class="list-row">
+						 						<p>Beneficiary to Receive</p>
+						 						<p>1,000.00 USD</p>
+						 					</div>
+
+						 					<div class="list-row">
+						 						<p>Exchange Rate</p>
+						 						<p>1.3942</p>
+						 					</div>
+
+						 					<div class="list-row">
+						 						<p>Amount</p>
+						 						<p>1,394.20 SGD</p>
+						 					</div>
+
+						 					<div class="list-row">
+						 						<p>Wallex Fee</p>
+						 						<p>13.69 SGD</p>
+						 					</div>
+
+						 					<div class="list-row list-total">
+						 						<p>Total</p>
+						 						<p>1,407.89 SGD</p>
+						 					</div>
+
+						 				</div>
+
+						 				<div class="confirm d-flex flex-nowrap">
+						 					<input type="checkbox" id="confirm" name="">
+						 					<label for="confirm">I accept the fees provided by Wallex and acknowledge that this payment will be submitted for processing upon clicking the button below.</label>
+						 				</div>
+
+						 				<div class="payment-btn">
+						 					<a href="">Make Payment</a>
+						 				</div>
+
+
+						 			</div>
+						 		</div>
+						 	</div>
+
+						 </div>
+					</div>
+
+
+					
+
+
+
+
+					
+
+
+				</section>
+				<!-- DASHBOARD MAIN END -->
+
+				
+			</div>
+		</main>
+	</div>
+	
+
+
+
+
+
+	<!-- JQUERY CDN FILE LINK -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+
+	<!-- BOOTSTRAP JS FILE LINK -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.bundle.min.js"></script>
+
+	<!-- CUSTOM JS  -->
+	<script type="text/javascript" src="assets/js/dash.js"></script>
+
+</body>
+</html>

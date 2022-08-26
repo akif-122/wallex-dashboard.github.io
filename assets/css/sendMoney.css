@@ -1,0 +1,406 @@
+.money-inform{
+	background: #F4F8FD;
+	border-left: 5px solid #7BB5E7;
+	padding: 15px 20px;
+}
+
+.money-inform p {
+	font-size: 13px;
+	margin-bottom: 0;
+}
+
+
+
+.sendMoney-wrapper{
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 5px;
+	margin: 20px 0;
+	padding: 0px 15px;
+}
+.sendMoney-wrapper .paying{
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	padding-bottom: 10px;
+
+}
+.sendMoney-wrapper .paying  h4.payHeading{
+	position: relative;
+	font-size: 18px;
+	font-weight: 600;
+	padding-left: 50px;
+	margin: 25px 0;
+}
+.sendMoney-wrapper .paying  h4.payHeading span{
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+	font-weight: 300;
+	color: #fff;
+	background: #222;
+
+}
+.sendMoney-wrapper .paying .i-paying{
+	margin: 15px 0;
+}
+.sendMoney-wrapper .paying .i-paying .exch label{
+	font-size: 14px;
+	font-weight: 300;
+	margin-bottom: 0;
+	text-align: right;
+}
+.sendMoney-wrapper .paying .i-paying .exch select,
+.sendMoney-wrapper .paying .i-paying .exch input{
+	width: 30%;
+	height: 35px;
+	padding: 5px;
+	margin: 0 10px;
+	font-size: 14px;
+	outline: none;
+	border: 1px solid rgba(0,0,0,0.18);
+	border-radius: 4px;
+}
+
+ .sendMoney-wrapper .paying p.noFound{
+ 	font-size: 14px;
+ 	text-align: center;
+ 	font-weight: 300;
+ 	margin: 30px 0;
+ }
+
+ .sendMoney-wrapper .paying  h4 strong{
+ 	font-weight: 300;
+ 	font-size: 13px;
+ 	padding: 2px 8px;
+ 	border-radius: 3px;
+ 	border: 1px solid #b7eb8f;
+ 	color: #389e0d;
+ 	background: #f6ffed;
+ }
+
+ .sendMoney-wrapper .paying .new-pay{
+ 	background-color: #fdf4c4;
+    border: 1px solid #ffc107;
+    margin-left: 50px;
+    padding: 15px;
+    margin-bottom: 20px;
+ }
+
+ .sendMoney-wrapper .paying .new-pay h5{
+ 	font-size: 16px;
+ 	font-weight: 300;
+ 	padding-left: 30px;
+ 	margin-bottom: 10px;
+ 	position: relative;
+ }
+ .sendMoney-wrapper .paying .new-pay h5 i{
+ 	position: absolute;
+ 	left: 0;
+ 	top: -3px;
+ 	color: #FFA900;
+ 	font-size: 24px;
+
+ }
+ .sendMoney-wrapper .paying .new-pay p{
+ 	font-size: 13px;
+ 	padding-left: 30px;
+ 	font-weight: 300;
+ }
+
+ .sendMoney-wrapper .paying .radio-section p{
+ 	font-size: 14px;
+ 	font-weight: 300;
+ 	margin-right: 20px;
+ }
+  .sendMoney-wrapper .paying .radio-section p a{
+  	margin-top: 5px;
+    color: #36c6d3;
+    border: 1px solid #36c6d3;
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 3px;
+    padding: 1px 5px;
+    font-size: 12px;
+    text-decoration: none;
+  }
+.sendMoney-wrapper .paying .radio-section{
+	margin-left: 50px;
+	margin-bottom: 40px;
+}
+ .sendMoney-wrapper .paying .radio-section .radio{
+ 	display: flex;
+ 	flex-wrap: nowrap;
+ 	align-items: center;
+ 	margin: 5px 0;
+
+ }
+  .sendMoney-wrapper .paying .radio-section .radio label{
+  	white-space: nowrap;
+  	font-size: 13px;
+  	margin: 0;
+  	margin-left: 5px;
+  	color: #666;
+  }
+
+
+
+.sendMoney-wrapper .paying .payment .form-input-wrap{
+	display: flex;
+	align-items: flex-start;
+	margin: 20px 0;
+}
+
+.sendMoney-wrapper .paying .payment .form-input-wrap label{
+	flex-basis: 50%;
+	text-align: right;
+	margin-right: 20px;
+	font-size: 13px;
+	color: #666;
+}
+.sendMoney-wrapper .paying .payment .form-input-wrap label span{
+	color: red;
+}
+.sendMoney-wrapper .paying .payment .form-input-wrap .i-input{
+	flex-basis: 50%;
+}
+.sendMoney-wrapper .paying .payment .form-input-wrap .i-input select,
+.sendMoney-wrapper .paying .payment .form-input-wrap .i-input textarea,
+.sendMoney-wrapper .paying .payment .form-input-wrap .i-input input{
+	width: 100%;
+	height: 35px;
+	padding: 5px;
+	outline: none;
+	font-size: 13px;
+	color: #555;
+	outline: none;
+	border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.18)
+}
+.sendMoney-wrapper .paying .payment .form-input-wrap .i-input textarea{
+	height: 100px;
+
+}
+
+.sendMoney-wrapper .paying .payment .form-input-wrap .i-input .checkbox{
+	margin-right: auto;
+	width: 18px;
+	height: 18px;
+}
+
+.sendMoney-wrapper .paying .payment .form-input-wrap .i-input p{
+	font-size: 12px;
+	color: #666;
+	margin-top: 5px;
+	font-weight: 300;
+}
+
+
+
+
+
+.payment-summary{
+	background: #E5E5E5;
+	padding: 15px;
+	border-radius: 4px;
+}
+.payment-summary .card{
+
+}
+.payment-summary .card-header{
+	padding: 20px 15px;
+	background: #fff;
+	position: relative;
+}
+
+.payment-summary .card-header .ribon{
+	z-index: 1;
+    position: absolute;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    right: 20px;
+    background-color: #36c6d3;
+    color: #020808;
+    box-shadow: 0 0 20px -5px #888;
+}
+.payment-summary .card-header .ribon:after {
+    border-left: 20px solid #36c6d3;
+    border-right: 20px solid #36c6d3;
+    border-bottom: 1em solid transparent!important;
+    bottom: -0.9em;
+    content: '';
+    height: 0;
+    left: 0;
+    position: absolute;
+    width: 0;
+}
+.payment-summary .card-header h4{
+	font-size: 18px;
+	font-weight: 500;
+	color: #32c5d2;
+	margin: 0;
+
+}
+
+
+.payment-summary .card-body .select-benefi{
+	background: #F5F5F5;
+	padding: 15px;
+	border-radius: 5px;
+	margin: 10px 0;
+}	
+.payment-summary .card-body .select-benefi p{
+	margin: 0;
+	font-size: 13px;
+	font-weight: 300;
+}
+.payment-summary .card-body .list-container{
+	border-top: 1px solid rgba(0,0,0,0.18);
+	margin-top: 15px;
+
+}
+.payment-summary .card-body .list-container .list-row{
+	display: flex; 
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid rgba(0,0,0,0.18);
+	padding: 8px 5px;
+}
+.payment-summary .card-body .list-container .list-row p{
+	margin: 0;
+	font-size: 14px;
+	color: #555;
+}
+
+.payment-summary .card-body .list-container .list-row.list-total{
+	background: #F5F5F5;
+}
+.payment-summary .card-body .list-container .list-row.list-total p{
+	font-size: 15px;
+	font-weight: 600;
+	color: #333;
+}
+.payment-summary .card-body .confirm{
+	margin: 20px 0;
+}
+.payment-summary .card-body .confirm input{
+	font-size: 20px;
+	margin: 0;
+	margin-right: 5px;
+}
+
+.payment-summary .card-body .confirm label{
+	font-size: 12px;
+	font-weight: 300;
+	color: #666;
+	margin: 0;
+}
+
+.payment-summary .card-body .payment-btn a{
+	display: block;
+	text-align: center;
+	padding: 10px;
+	border-radius: 4px;
+	font-size: 14px;
+	color: #FFF;
+	border: 1px solid;
+    background-color: #3598dc;
+    border-color: #3598dc;
+}
+
+
+
+
+
+
+@media screen and (max-width: 767px){
+
+.sendMoney-wrapper .paying .i-paying .exch{
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.sendMoney-wrapper .paying .i-paying .exch label{
+	text-align: left !important;
+	margin-left: 10px;
+}
+
+.sendMoney-wrapper .paying .i-paying .exch select,
+.sendMoney-wrapper .paying .i-paying .exch input{
+	width: 100%;
+	margin: 10px 10px;
+
+}
+
+
+
+
+.sendMoney-wrapper .paying .payment .form-input-wrap{
+	flex-direction: column;
+}
+
+.sendMoney-wrapper .paying .payment .form-input-wrap label{
+	width: 100%;
+	text-align: left;
+	margin-right: 20px;
+	font-size: 13px;
+	color: #666;
+}
+.sendMoney-wrapper .paying .payment .form-input-wrap label span{
+	color: red;
+}
+.sendMoney-wrapper .paying .payment .form-input-wrap .i-input{
+	width: 100%;
+}
+
+}
+
+
+@media screen and (max-width: 575px){
+
+.sendMoney-wrapper .paying h4.payHeading {
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 25px 0;
+    padding-left: 30px;
+}
+.sendMoney-wrapper .paying h4.payHeading span{
+	width: 25px;
+	height: 25px;
+	font-size: 13px;
+	left: 0;
+}
+
+.sendMoney-wrapper .paying .new-pay {
+    margin-left: 0px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.sendMoney-wrapper .paying .new-pay h5{
+	font-size: 13px;
+}
+.sendMoney-wrapper .paying .new-pay p {
+    font-size: 13px;
+    padding-left: 0px;
+    font-weight: 300;
+}
+
+
+.sendMoney-wrapper .paying .radio-section{
+	margin-left: 0px;
+	margin-bottom: 30px;
+}
+
+
+
+}

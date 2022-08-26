@@ -1,0 +1,119 @@
+.bulk-step-container{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-left: 5%;
+}
+.bulk-table .bulk-step .step-circle{
+	padding: 0;
+	min-width: 32px;
+	height: 32px;
+}
+
+
+h2.addBenefi-heading{
+	font-size: 22px;
+	color: #333;
+	margin: 30px 0;
+}
+
+.addBenefi-form-container{
+	margin: 30px auto;
+	width: 90%;
+	margin-top: 60px;
+}
+.addBenefi-form-container input,
+.addBenefi-form-container select{
+	height: 40px;
+	border-radius: 4px;
+	outline: none;
+	font-size: 14px;
+	color: #333;
+	padding: 10px;
+}
+
+.addBenefi-form-container .form-group{
+	margin: 20px 0;
+}
+.addBenefi-form-container label{
+	font-size: 13px;
+	font-weight: 500;
+	color: #444;
+}
+.addBenefi-form-container small{
+	font-size: 12px;
+	color: #999999;
+	font-weight: 300;
+}
+.addBenefi-form-container .company-radio{
+	display: flex;
+	flex-wrap: wrap;
+}
+.addBenefi-form-container .company-radio label{
+	cursor: pointer;
+	border: 1px solid rgba(0,0,0,0.14);
+	border-radius: 5px;
+	padding: 15px 10px 15px 20px;
+	padding-right: 10px;
+	width: 270px;
+	display: flex;
+	align-items: center;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.addBenefi-form-container .company-radio label .radio-detail{
+	display: flex;
+	align-items: center;
+}
+.addBenefi-form-container .company-radio label .radio-detail img{
+	width: 80px;
+	margin: 10px 15px;
+}
+.addBenefi-form-container .company-radio label .radio-detail h6{
+	font-size: 13px;
+	font-weight: 600;
+	color: #333;
+}
+
+.addBenefi-form-container .company-radio label .radio-detail p{
+	font-size: 12px;
+	color: #999999;
+	font-weight: 300;
+}
+
+.addbenefi-btn input{
+	padding: 8px 15px;
+	border-radius: 5px;
+	border: 1px solid;
+	outline: none;
+	font-size: 14px;
+	border-color: rgba(0,0,0,0.14);
+	background: #fff;
+
+}
+
+.addbenefi-btn input:first-child:hover{
+	color: #2DC6BF;
+	border-color: #2DC6BF;
+}
+
+.addbenefi-btn input:last-child{
+	color: #fff;
+	border-color: #2DC6BF;
+	background: #2DC6BF;
+	margin-left: 5px;
+}
+
+@media screen and (max-width: 575px){
+
+.bulk-step-container{
+	margin-left: 0%;
+}
+
+.addBenefi-form-container{
+	width: 100%;
+}
+
+}

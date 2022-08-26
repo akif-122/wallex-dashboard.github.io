@@ -1,0 +1,41 @@
+.collection-contianer{
+	background: #fff;
+	border-radius: 5px;
+	width: 100%;
+	padding: 20px;
+}
+
+.collection-contianer .collection-content{
+	max-width: 500px;
+	margin: 20px auto;
+}
+
+.collection-contianer .collection-content h4{
+	font-size: 17px;
+	font-weight: 600;
+	color: #444;
+
+}
+.collection-contianer .collection-content p{
+	font-size: 13px;
+	font-weight: 300;
+
+}
+.collection-contianer .collection-content p a{
+	color: #38b2ac;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    transition: color .3s;
+}
+.collection-contianer .collection-content .collect-img{
+	margin: 10px 0;
+}
+.collection-contianer .collection-content .collect-img img{
+	width: 100%;
+}
+.collection-contianer .collection-content h6{
+	font-size: 13px;
+	font-weight: 300;
+}
